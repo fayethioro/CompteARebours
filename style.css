@@ -1,0 +1,49 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size: 1em;
+}
+body
+{
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container
+{
+    width: 60%;
+    height: 300px;
+    background:url(images/background.jpg);
+    background-repeat:no-repeat;
+}
+h1
+{
+    text-align: center;
+    margin-top:1em ;
+}
+.Rebours
+{
+    display: flex;
+    margin-left: 6em;
+    margin-right: 2em;
+    margin-top: 3em;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.jour, .heure, .minutes, .seconde
+{
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+#text_day, #text_hour, #text_minute, #text_second
+{
+    padding-left: 30px;
+}
