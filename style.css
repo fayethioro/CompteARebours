@@ -18,10 +18,11 @@ body
 }
 .container
 {
-    width: 60%;
+    width: 80%;
     height: 300px;
     background:url(images/background.jpg);
     background-repeat:no-repeat;
+    background-size:cover;
 }
 h1
 {
